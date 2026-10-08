@@ -1,0 +1,10 @@
+# ===== DuelArena config =====
+world: duel_world           # отдельный void-мир для дуэлей (создаётся сам)
+island-radius: 20           # радиус острова (диаметр ~40 блоков)
+arena-y: 100                # высота верха острова
+countdown-seconds: 5        # отсчёт перед боем
+after-fight-seconds: 120    # сколько кабинка живёт после боя (собрать лут)
+invite-seconds: 60          # сколько действует приглашение
+broadcast-decline: true     # объявлять отказ на весь сервер
+coords-range: 50000         # арены появляются в случайной точке от -N до N
+min-arena-distance: 500     # минимум блоков между кабинками

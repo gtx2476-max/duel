@@ -1,0 +1,18 @@
+name: DuelArena
+version: 1.0.0
+main: ru.duels.DuelsPlugin
+api-version: '1.21'
+author: DuelArena
+description: PvP duels in temporary island cabins with anti-relog
+commands:
+  duel:
+    description: Дуэли (/duel <ник>, /duel leave)
+    usage: /duel <ник> | accept <ник> | deny <ник> | leave
+    aliases: [duels]
+permissions:
+  duel.use:
+    description: Вызывать на дуэль
+    default: true
+  duel.admin:
+    description: Обходит запрет команд во время дуэли
+    default: op
